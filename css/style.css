@@ -31,12 +31,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 6rem;
+  padding: 1rem;
 }
 
 .main {
   background-color: var(--white);
-  width: 20rem;
+  max-width: 20rem;
   border-radius: 1rem;
 }
 
@@ -65,9 +65,17 @@ body {
 
 .attribution {
   margin-top: 2rem;
-   font-size: 11px; text-align: center;
+  font-size: 11px; text-align: center;
 }
 
 .attribution a {
    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1440px) {
+
+  body {
+    padding: 6rem;
+  }
+
 }
